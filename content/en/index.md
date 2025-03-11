@@ -3,7 +3,7 @@ title: "About Me"
 ---
 
 ### About Me
-**Years of Study:** 2020–2025  
+**Years of Study:** 2021–2025  
 **University:** [Volga State University of Technology (PGTU)](https://www.volgatech.net/)  
 **Specialization:** 09.03.04 "Software Engineering"
 
