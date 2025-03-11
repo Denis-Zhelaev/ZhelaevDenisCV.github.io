@@ -2,40 +2,40 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://Denis-Zhelaev.github.io/ZhelaevDenisCV/</loc>
+    <loc>http://localhost:1313/ZhelaevDenisCV/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
-                href="https://Denis-Zhelaev.github.io/ZhelaevDenisCV/ru/"
+                href="http://localhost:1313/ZhelaevDenisCV/ru/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://Denis-Zhelaev.github.io/ZhelaevDenisCV/"
+                href="http://localhost:1313/ZhelaevDenisCV/"
                 />
   </url><url>
-    <loc>https://Denis-Zhelaev.github.io/ZhelaevDenisCV/categories/</loc>
+    <loc>http://localhost:1313/ZhelaevDenisCV/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
-                href="https://Denis-Zhelaev.github.io/ZhelaevDenisCV/ru/categories/"
+                href="http://localhost:1313/ZhelaevDenisCV/ru/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://Denis-Zhelaev.github.io/ZhelaevDenisCV/categories/"
+                href="http://localhost:1313/ZhelaevDenisCV/categories/"
                 />
   </url><url>
-    <loc>https://Denis-Zhelaev.github.io/ZhelaevDenisCV/tags/</loc>
+    <loc>http://localhost:1313/ZhelaevDenisCV/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
-                href="https://Denis-Zhelaev.github.io/ZhelaevDenisCV/ru/tags/"
+                href="http://localhost:1313/ZhelaevDenisCV/ru/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://Denis-Zhelaev.github.io/ZhelaevDenisCV/tags/"
+                href="http://localhost:1313/ZhelaevDenisCV/tags/"
                 />
   </url>
 </urlset>

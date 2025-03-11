@@ -1,7 +1,6 @@
 baseURL = "https://Denis-Zhelaev.github.io/ZhelaevDenisCV/"
 languageCode = "ru-en"
 title = "Denis Zhelaev CV"
-theme = "PaperMod"
 
 # Мультиязычность
 [languages]
@@ -19,8 +18,8 @@ theme = "PaperMod"
 # Настройки темы PaperMod
 [params]
   description = "Сайт о моем обучении в ПГТУ"
-  defaultTheme = "light" 
-  disableSpecial1stPost = false 
+  defaultTheme = "light"
+  disableSpecial1stPost = false
   disableScrollToTop = false
   hideMenu = false
 
@@ -38,3 +37,8 @@ theme = "PaperMod"
 # Скрыть копирайт
 [params.footer]
   enable = false
+
+# Подключение темы PaperMod через Hugo Modules
+[module]
+  [[module.imports]]
+    path = "github.com/adityatelange/hugo-PaperMod"

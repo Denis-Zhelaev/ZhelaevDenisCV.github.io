@@ -9,29 +9,23 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
+      # Шаг 1: Загрузка репозитория
       - uses: actions/checkout@v3
         with:
-          submodules: true  # Включаем загрузку подмодулей
-          fetch-depth: 0    # Загружаем всю историю коммитов
+          fetch-depth: 0  # Загружаем всю историю коммитов
 
-      - name: Download PaperMod theme
-        run: |
-          if [ ! -d "themes/papermod" ]; then
-            git clone https://github.com/adityatelange/hugo-PaperMod.git themes/papermod
-          fi
-
-
+      # Шаг 2: Установка Hugo
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
           hugo-version: 'latest'  # Используем последнюю версию Hugo
           extended: true          # Используем расширенную версию Hugo
 
-      # Шаг 4: Сборка сайта
+      # Шаг 3: Сборка сайта
       - name: Build
         run: hugo --minify  # Минификация выходных файлов
 
-      # Шаг 5: Публикация на GitHub Pages
+      # Шаг 4: Публикация на GitHub Pages
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
