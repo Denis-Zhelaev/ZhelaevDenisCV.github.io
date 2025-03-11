@@ -29,5 +29,5 @@ jobs:
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}  # Токен для доступа к репозиторию
+          github_token: ${{ secrets.MARINA_ROCKSTAR  }}  # Используем ваш Personal Access Token
           publish_dir: ./public  # Папка с собранным сайтом
