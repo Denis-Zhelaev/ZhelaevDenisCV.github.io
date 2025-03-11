@@ -2,40 +2,40 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://ZhelaevDenicCV.com/</loc>
+    <loc>https://Denis-Zhelaev.github.io/ZhelaevDenisCV/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
-                href="https://ZhelaevDenicCV.com/ru/"
+                href="https://Denis-Zhelaev.github.io/ZhelaevDenisCV/ru/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://ZhelaevDenicCV.com/"
+                href="https://Denis-Zhelaev.github.io/ZhelaevDenisCV/"
                 />
   </url><url>
-    <loc>https://ZhelaevDenicCV.com/categories/</loc>
+    <loc>https://Denis-Zhelaev.github.io/ZhelaevDenisCV/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
-                href="https://ZhelaevDenicCV.com/ru/categories/"
+                href="https://Denis-Zhelaev.github.io/ZhelaevDenisCV/ru/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://ZhelaevDenicCV.com/categories/"
+                href="https://Denis-Zhelaev.github.io/ZhelaevDenisCV/categories/"
                 />
   </url><url>
-    <loc>https://ZhelaevDenicCV.com/tags/</loc>
+    <loc>https://Denis-Zhelaev.github.io/ZhelaevDenisCV/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
-                href="https://ZhelaevDenicCV.com/ru/tags/"
+                href="https://Denis-Zhelaev.github.io/ZhelaevDenisCV/ru/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://ZhelaevDenicCV.com/tags/"
+                href="https://Denis-Zhelaev.github.io/ZhelaevDenisCV/tags/"
                 />
   </url>
 </urlset>

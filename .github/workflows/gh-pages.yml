@@ -9,17 +9,18 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      # Шаг 1: Загрузка репозитория с подмодулями
       - uses: actions/checkout@v3
         with:
           submodules: true  # Включаем загрузку подмодулей
           fetch-depth: 0    # Загружаем всю историю коммитов
 
-      # Шаг 2: Явная инициализация подмодулей
-      - name: Initialize submodules
-        run: git submodule update --init --recursive
+      - name: Download PaperMod theme
+        run: |
+          if [ ! -d "themes/papermod" ]; then
+            git clone https://github.com/adityatelange/hugo-PaperMod.git themes/papermod
+          fi
 
-      # Шаг 3: Установка Hugo
+
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
